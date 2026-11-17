@@ -1,29 +1,31 @@
 {
-  "name": "webhookktxbrasilcpanel",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GuilhermeRodriguesEras/WebhookKtxbrasilCpanel.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/GuilhermeRodriguesEras/WebhookKtxbrasilCpanel/issues"
-  },
-  "homepage": "https://github.com/GuilhermeRodriguesEras/WebhookKtxbrasilCpanel#readme",
-  "dependencies": {
-    "cloudinary": "^2.11.0",
-    "cors": "^2.8.6",
-    "dotenv": "^18.0.10",
-    "express": "^5.3.0",
-    "multer": "^2.5.0",
-    "mysql2": "^3.24.6"
-  }
+    "name": "webhookktxbrasilcpanel",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GuilhermeRodriguesEras/WebhookKtxbrasilCpanel.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/GuilhermeRodriguesEras/WebhookKtxbrasilCpanel/issues"
+    },
+    "homepage": "https://github.com/GuilhermeRodriguesEras/WebhookKtxbrasilCpanel#readme",
+    "dependencies": {
+        "cloudinary": "^2.11.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "multer": "^1.4.5-lts.1",
+        "mysql2": "^3.9.2",
+        "pg": "^8.11.3"
+    }
 }
